@@ -1,1 +1,32 @@
-body { background-color: blue;}
+body { background-color: rgb(48, 248, 255);
+color: crimson;
+}
+table,thead,tr,th {background-color: chartreuse;
+border-color: deeppink;
+border-width: 2px;
+border-style: double;}
+
+th {background-color: darkorange;}
+table {width: 50%;}
+th, td {text-align: left;
+padding: 8px;}
+
+tr:nth-child(even){background-color: blueviolet;}
+th {background-color: aqua;
+color: rgb(252, 0, 0);}
+
+table{border-collapse: collapse;
+    width: 50%;}
+
+    th, td{ text-align: center;
+    padding: 8px;}
+
+    tr:nth-last-child(even){background-color: chartreuse;}
+    tr:nth-last-child(odd){background-color: chocolate;}
+    th{
+        background-color: aquamarine;
+    color: coral;
+}
+tr:hover{background-color: black;
+    color: darkorange;
+    font-size: 20px;}
